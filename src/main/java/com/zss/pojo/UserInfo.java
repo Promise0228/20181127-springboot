@@ -2,14 +2,15 @@ package com.zss.pojo;
 
 public class UserInfo {
       
-	private int userid;
+	private Integer userid;
 	private String username;
 	private String userage;
 	private String usersex;
-	public int getUserid() {
+	
+	public Integer getUserid() {
 		return userid;
 	}
-	public void setUserid(int userid) {
+	public void setUserid(Integer userid) {
 		this.userid = userid;
 	}
 	public String getUsername() {
