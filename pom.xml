@@ -48,5 +48,11 @@
 			<artifactId>jsch</artifactId>
 			<version>0.1.51</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.ubirch.util/date -->
+		<dependency>
+			<groupId>com.ubirch.util</groupId>
+			<artifactId>date_2.11</artifactId>
+			<version>0.5.3</version>
+		</dependency>
 	</dependencies>
 </project>

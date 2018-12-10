@@ -136,7 +136,7 @@ public class A00729997 {
 		/*String sftpHost = "171.33.34.116";
 		String sftpUserName = "esbapp";
 		String sftpPassword = "EsbApp01";*/
-		String sftpHost = "192.36.2.112";
+		String sftpHost = "171.36.1.86";
 		String sftpUserName = "zhaoshuai";
 		String sftpPassword = "123456";
 		String sftpTimeout = "3000";
@@ -183,7 +183,7 @@ public class A00729997 {
 	public boolean getConnectEB() {
 		boolean flag = false;
 
-		String sftpHost = "192.36.2.18";
+		String sftpHost = "171.36.1.57";
 		String port = "22";
 		String sftpUserName = "zhaoshuai";
 		String sftpPassword = "123456";

@@ -16,13 +16,13 @@ public class servlet{
 
 	@RequestMapping("/test")
 	@ResponseBody
-	public Map<String, Object> test() throws UnknownHostException {
+	public String test() throws UnknownHostException {
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("name", "张三");
 		map.put("age", "22");
 		map.put("sex", "男");
 		map.put("11", 12343);
 		map.put("ip:", Inet4Address.getLocalHost());
-		return map;
+		return "MyJsp";
 	}
 }

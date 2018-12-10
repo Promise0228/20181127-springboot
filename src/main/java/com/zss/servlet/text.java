@@ -13,15 +13,15 @@ public class text {
 				System.out.println(date);
 				System.out.println(a.generatePlyEdr());
 				System.out.println(date);*/
-				if (a2.sftpUpLoadFile()) {
-					System.out.println("A00729998:-------第"+i+"次成功！");
-				} else {
-					System.out.println("A00729998:-------第"+i+"次失败！");
-				}
 				if (a1.generatePlyEdr()) {
 					System.out.println("A00729997:-------第"+i+"次成功！");
 				} else {
 					System.out.println("A00729997;-------第"+i+"次失败！");
+				}
+				if (a2.sftpUpLoadFile()) {
+					System.out.println("A00729998:-------第"+i+"次成功！");
+				} else {
+					System.out.println("A00729998:-------第"+i+"次失败！");
 				}
 			}
 		

@@ -112,7 +112,7 @@ public class A00729998 {
 	 */
 	public boolean getConnectESB() {
 		boolean flag = false;
-		String sftpHost = "192.36.2.112";
+		String sftpHost = "171.36.1.86";
 		String sftpUserName = "zhaoshuai";
 		String sftpPassword = "123456";
 		String sftpTimeout = "3000";
@@ -158,7 +158,7 @@ public class A00729998 {
 	 */
 	public boolean getConnectEB() {
 		boolean flag = false;	
-		String sftpHost = "192.36.2.18";
+		String sftpHost = "171.36.1.57";
 		String port = "22";
 		String sftpUserName = "zhaoshuai";
 		String sftpPassword = "123456";
