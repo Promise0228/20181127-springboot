@@ -4,7 +4,7 @@ import com.zss.pojo.UserInfo;
 
 public interface UserMapper {
        
-	public UserInfo insertUser();
+	public UserInfo insertUser(UserInfo userInfo);
 	
 	
 }
