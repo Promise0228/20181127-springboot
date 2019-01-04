@@ -21,6 +21,6 @@ public class UserServlet{
        UserInfo userInfo = new UserInfo();
        userInfo.setUsername("张三");
        userService.addUser(userInfo);
-		return "MyJsp";
+	   return "MyJsp";
 	}
 }
