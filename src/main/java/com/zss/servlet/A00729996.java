@@ -319,9 +319,6 @@ public class A00729996 {
 			System.out.println("文件是否存在：" + filesize);
 		} catch (Exception e) {
 			filesize = -1;// 获取文件大小异常
-			if (e.getMessage().toLowerCase().equals("no such file")) {
-				filesize = -2;// 文件不存在
-			}
 		}
 		return filesize;
 	}
@@ -388,17 +385,12 @@ public class A00729996 {
 	 * @throws SftpException
 	 */
 	public boolean isDirExist(ChannelSftp sftp, String directory) throws SftpException {
-		boolean isDirExistFlag = false;
 		try {
 			SftpATTRS sftpATTRS = sftp.lstat(directory);
-			isDirExistFlag = true;
 			return sftpATTRS.isDir();
 		} catch (Exception e) {
-			if (e.getMessage().toLowerCase().equals("no such file")) {
-				isDirExistFlag = false;
-			}
+			return false;
 		}
-		return isDirExistFlag;
 	}
 
 }
